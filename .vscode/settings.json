@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true,
+    "editor.tabSize": 2,
+    "deno.config": "./deno.json",
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "editor.formatOnSaveMode": "file",
+    "deno.suggest.imports.hosts": {
+        "https://deno.land": true
+    }
+}
