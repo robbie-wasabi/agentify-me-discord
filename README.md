@@ -1,4 +1,4 @@
-**README**
+**agentify me - discord**
 
 A simple Deno script that connects to a Discord bot via Harmony, fetches channel
 messages, filters by user, and converts results into JSONL format for training
